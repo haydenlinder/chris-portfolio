@@ -85,7 +85,10 @@ footer {
 section {
     width: 100%;
     max-width: 1000px;
-    padding: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-bottom: 1px solid grey;
     display: flex;
     flex-direction: column;
@@ -101,12 +104,14 @@ img {
 }
 
 .tiles {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
 
 .tiles a {
-    margin: 20px;
+    margin-right: 50px;
+    margin-top: 50px;
     text-align: center;
     font-size: 22px;
 }
