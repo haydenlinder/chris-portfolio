@@ -76,7 +76,7 @@ header {
 
 footer {
     width: 100%;
-    background: grey;
+    background: rgb(180, 180, 180);
     color: white;
     padding: 20px; 
     padding-top: 100px; 
@@ -86,7 +86,7 @@ section {
     width: 100%;
     max-width: 1000px;
     padding: 50px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
     display: flex;
     flex-direction: column;
 }
@@ -94,4 +94,19 @@ section {
 form {
     display: flex;
     flex-direction: column;
+}
+
+img {
+    object-fit: cover;
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tiles a {
+    margin: 20px;
+    text-align: center;
+    font-size: 22px;
 }
